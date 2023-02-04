@@ -1,0 +1,28 @@
+.banner {
+  text-align: center;
+  background-color: rgba(142, 36, 36, 0.05);
+  padding: 4em;
+  border-radius: 20px;
+}
+
+.banner__titulo {
+  color: var(--vinho);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.banner__texto {
+  font-size: 36px;
+  color: var(--cinza-900);
+  margin: 1em 0;
+}
+
+.banner__usuario {
+  color: var(--cinza-900);
+  margin: 1em 0;
+}
+
+.banner__profissao {
+  font-size: 14px;
+  font-weight: 400;
+}

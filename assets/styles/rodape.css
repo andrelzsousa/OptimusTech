@@ -1,0 +1,53 @@
+.rodape {
+  text-align: center;
+  background-color: #f9fafb;
+  padding: 6em 0;
+}
+
+.rodape__titulo {
+  color: var(--cinza-900);
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.rodape__subtitulo {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 1.5em 0;
+}
+
+.rodape__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.rodape__input {
+  width: 20%;
+  padding: 1em;
+  border-radius: 8px;
+  border: 1px solid #d0d5dd;
+}
+
+.rodape__botao {
+  text-decoration: none;
+  color: var(--branco);
+  background-color: var(--vinho);
+  padding: 0.9em;
+  border-radius: 8px;
+  border: none;
+}
+
+.rodape__input::placeholder {
+  font-family: var(--fonte-principal);
+  color: var(--cinza-500);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.rodape__direitos {
+  color: #98a2b3;
+  font-weight: 400;
+  margin-top: 2em;
+}

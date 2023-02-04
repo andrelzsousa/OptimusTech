@@ -1,0 +1,51 @@
+.sobre {
+  padding-bottom: 6em;
+}
+
+.sobre__titulo {
+  font-weight: 600;
+  color: var(--vinho);
+}
+
+.sobre__subtitulo {
+  font-weight: 600;
+  font-size: 48px;
+  color: var(--cinza-900);
+  margin: 0.8em 0;
+}
+
+.sobre__texto {
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--cinza-500);
+  line-height: 1.3em;
+}
+
+.sobre__container {
+  text-align: center;
+  padding: 0 18em;
+  margin-bottom: 7em;
+}
+
+.sobre__info {
+  display: flex;
+  justify-content: space-around;
+  gap: 3em;
+}
+
+.info__titulo {
+  font-weight: 600;
+  font-size: 60px;
+  color: var(--vinho);
+}
+
+.info__subtitulo {
+  font-size: 18px;
+  color: var(--cinza-900);
+  margin: 0.8em 0;
+}
+
+.info__texto {
+  font-weight: 400;
+  color: var(--cinza-500);
+}

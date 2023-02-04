@@ -1,0 +1,26 @@
+@import url(./styles/cabecalho.css);
+@import url(./styles/sobre.css);
+@import url(./styles/vagas.css);
+@import url(./styles/banner.css);
+@import url(./styles/rodape.css);
+
+:root {
+  --branco: #ffffff;
+  --vinho: #8e2424;
+  --cinza-200: #eaecf0;
+  --cinza-500: #667085;
+  --cinza-900: #101828;
+  --fonte-principal: "Inter";
+}
+
+body {
+  font-family: var(--fonte-principal);
+  color: var(--cinza-500);
+  font-size: 16px;
+  font-weight: 500;
+  background-color: var(--branco);
+}
+
+.principal {
+  padding: 6em 5em;
+}

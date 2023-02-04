@@ -1,0 +1,69 @@
+.vagas {
+  padding: 6em 0;
+}
+
+.vagas__container {
+  text-align: center;
+}
+
+.vagas__titulo {
+  display: inline-block;
+
+  width: 10%;
+  color: var(--vinho);
+  font-size: 14px;
+  background-color: rgba(142, 36, 36, 0.05);
+  /* usei rbga para conseguir alterar a opacidade somente do background com o alpha, inves de usar opacity() em toda a div */
+  padding: 0.5em 0;
+  border-radius: 30px;
+}
+
+.vagas__subtitulo {
+  margin: 1em 0;
+  color: var(--cinza-900);
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.vagas__texto {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.vagas__imagem {
+  width: 100%;
+  padding: 4em 0;
+}
+
+.lista__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3em;
+}
+
+.vagas__lista {
+  width: 60%;
+}
+
+.lista__titulo {
+  font-size: 20px;
+  color: var(--cinza-900);
+  margin-bottom: 1.5em;
+}
+
+.lista__item {
+  border: 1px solid var(--cinza-200);
+  padding: 1.5em;
+  border-radius: 10px;
+  margin-bottom: 1.5em;
+}
+
+.lista__item h3 {
+  margin-bottom: 2em;
+}
+
+.lista__item p {
+  display: inline;
+  margin-right: 1.5em;
+}
